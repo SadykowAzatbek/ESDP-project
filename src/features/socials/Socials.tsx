@@ -243,7 +243,6 @@ const Socials = () => {
           socials.map((item) => (
             <SocialsItem
               id={item._id}
-              key={item._id}
               name={item.name}
               link={item.link}
               image={item.image}
